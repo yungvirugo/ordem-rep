@@ -1,0 +1,1205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+body, p, h1{
+    margin: 0;
+    background-color: #07070D;
+}
+
+.menu{
+    width: 100%;
+    height: 6rem;
+
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    position: fixed;
+
+    backdrop-filter: blur(0.4rem);
+
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+.menu-divs{
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+}
+
+.logo-op{
+    width: 12rem;
+    height: 6rem;
+
+    margin: 0 0 0 5rem;
+}
+
+.logo-op img{
+    width: 100%;
+}
+
+.menu-botoes{
+    width: 77rem;
+    height: 6rem;
+}
+
+.botoes-da-barra{
+    font-family: 'Roboto Condensed';
+    font-size: 0.9375rem;
+    font-weight: bold;
+    color: #FFFF;
+
+    border: none;
+
+    margin: 2.5rem 0 0 2rem;
+
+    transition: color 0.1s ease-in;
+    background: none;
+}
+
+.botoes-da-barra:hover{
+    color: #F2A74B;
+}
+
+.coisa{
+    width: 100%;
+    height: 323rem;
+
+    display: flex;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+}
+
+.imagem-principal-ordem{
+    width: 100%;
+    height: 60rem;
+
+    position: absolute;
+}
+
+.imagem-principal-ordem div{
+    width: 88%;
+    height: 52rem;
+
+    margin: 7rem 0 0 5.4rem;
+}
+
+.imagem-principal-ordem div img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-title-about{
+    width: 100%;
+    height: 7rem;
+
+    position: absolute;
+    margin: 60rem 0 0 0;
+
+    align-items: center;
+    text-align: center;
+}
+
+.div-title-about p{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: #FFF;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.about-div{
+    width: 100%;
+    height: 44rem;
+
+    margin: 67rem 0 0 0;
+    display: flex;
+}
+
+.metade-about1{
+    width: 36%;
+    height: 45rem;
+
+    margin: 0 0 0 13rem;
+}
+
+.metade-about{
+    width: 50%;
+    height: 45rem;
+
+    align-items: center;
+    line-height: 1.5em;
+}
+
+.metade-about1 img{
+    width: 100%;
+}
+
+.metade-about p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: #FFF;
+
+    margin-top: 2rem;
+}
+.ramification{
+    width: 100%;
+    height: 55rem;
+
+    margin: 100rem 0 0 -100%;
+    display: flex;
+}
+
+.div-title-ramification{
+    width: 100%;
+    height: 10rem;
+
+    position: absolute;
+}
+
+.div-title-ramification p{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: white;
+
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+
+    margin: 6rem 0 0 0;
+}
+
+.rpg-ordem{
+    width: 100%;
+    height: 50rem;
+
+    margin-top: 9rem;
+}
+
+.imagens-rpg{
+    width: 100%;
+    height: 21rem;
+
+    display: flex;
+}
+
+.imagens-dele{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 10.5rem;
+}
+.imagens-dele2{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.text-ordem-enigma{
+    width: 100%;
+    height: 24rem;
+
+    display: flex;
+}
+
+.title-ordem-enigma{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-dele{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 10.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-dele p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: #FFF;
+} 
+
+.title-dele2{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-dele2 p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: #FFF;
+} 
+
+.texto-dele{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 10.5rem;
+    text-align: center;
+    
+    line-height: 1.5em;
+}
+
+.texto-dele p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: #FFF;
+
+    margin-top: 2rem;
+}
+
+.texto-dele2{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 1rem;
+
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.texto-dele2 p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: #FFF;
+
+    margin-top: 2rem;
+}
+
+.campanhas{
+    width: 100%;
+    height: 137rem;
+
+    margin: 166rem 0 0 -100%;
+}
+
+.title-campanha{
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-campanha p{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: white;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.conteudos-campanhas-um{
+    width: 100%;
+    height: 21rem;
+
+    display: flex;
+}
+
+.image-ordem{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.image-floresta{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.titles-campanhas-um{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-ordem{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.title-floresta{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 1rem;
+}
+
+.title-ordem p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.title-floresta p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.buttom-campanhas-um{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.buttom-ordem{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.buttom-floresta{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 1rem;
+}
+
+.buttom-ordem button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.buttom-floresta button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.buttom-ordem button:hover{
+    background-color: #cb8514; 
+}
+
+.buttom-floresta button:hover{
+    background-color: #cb8514; 
+}
+
+.text-campanhas-um{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.text-ordem{
+    width: 36rem;
+    height: 14rem;  
+
+    margin: 0 0 0 10.5rem;
+}
+
+.text-floresta{
+    width: 36rem;
+    height: 14rem;  
+
+    margin: 0 0 0 1rem;
+}
+
+.text-ordem p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.text-floresta p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudos-campanhas-dois{
+    width: 100%;
+    height: 21rem;
+
+    display: flex;
+}
+
+.image-descon{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.image-calamidade{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.titles-campanhas-dois{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-descon{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 10.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-calamidade{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-calamidade p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.title-descon p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.buttom-campanhas-dois{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.buttom-descon{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 10.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom-calamidade{
+    width: 36rem;
+    height: 4rem;
+
+    margin: 0 0 0 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom-descon button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.buttom-calamidade button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.buttom-calamidade button:hover{
+    background-color: #cb8514; 
+}
+
+.buttom-descon button:hover{
+    background-color: #cb8514; 
+}
+
+.text-campanhas-dois{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.text-descon{
+    width: 36rem;
+    height: 14rem;  
+
+    margin: 0 0 0 10.5rem;
+}
+
+.text-calamidade{
+    width: 36rem;
+    height: 14rem;  
+
+    margin: 0 0 0 1rem;
+}
+
+.text-descon p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.text-calamidade p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudos-campanhas-tres{
+    width: 100%;
+    height: 21rem;
+
+    display: flex;
+}
+
+.image-segredo{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.image-sinais{
+    width: 36rem;
+    height: 21rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.titles-campanhas-tres{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.titles-segredos{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.titles-sinais{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 1rem;
+}
+
+.titles-segredos p{
+    font-family: 'Roboto';
+    font-size: 2rem;
+    color: white;
+}
+
+.titles-sinais p{
+    font-family: 'Roboto';
+    font-size: 2rem;
+    color: white;
+}
+
+.text-campanhas-tres{
+    width: 100%;
+    height: 15rem;
+
+    display: flex;
+}
+
+.buttom-campanhas-tres{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.buttom-segredo{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.buttom-sinais{
+    width: 36rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 1rem;
+}
+
+.buttom-segredo button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.buttom-sinais button{
+    width: 10.62375rem;
+    height: 2.4375rem;
+
+    border: none;
+    border-radius: 0.2rem;
+
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+    
+    background-color: #FFBC4F;
+}
+
+.buttom-ordem button:hover{
+    background-color: #cb8514; 
+}
+
+.buttom-floresta button:hover{
+    background-color: #cb8514; 
+}
+
+.text-segredo{
+    width: 36rem;
+    height: 15rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.text-sinais{
+    width: 36rem;
+    height: 15rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.text-segredo p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.text-sinais p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5em;
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.title-midia{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-midia p{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: white;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.midia-principal{
+    width: 100%;
+    height: 16rem;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+.midia-ign{
+    width: 4rem;
+    height: 4rem;
+}
+
+.text-midia{
+    width: 100%;
+    height: 3rem;
+
+    margin-top: 5rem;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-midia p{
+    font-family: 'Roboto';
+    font-size: 1.1875rem;
+    color: white;
+
+    font-weight: bold;
+}
+
+.text-midia-dois{
+    width: 100%;
+    height: 3rem;
+
+    margin-top: 7rem;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-midia-dois p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    font-weight: bold;
+}
+
+.equipe{
+    width: 100%;
+    height: 30rem;
+}
+
+.equipe-title{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe-title p{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: white;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.info-equipe{
+    width: 100%;
+    height: 22rem;
+
+    display: flex;
+}
+
+.text-equipe{
+    width: 36rem;
+    height: 22rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.cellbit-equipe{
+    width: 36rem;
+    height: 22rem;
+
+    margin: 0 0 0 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.criador-title{
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.criador-title p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.text-criador p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    line-height: 1.5rem;
+
+    margin-top: 1rem;
+}
+
+.imagem-cellbit{
+    width: 15.625rem;
+    height: 15.625rem;
+}
+
+.imagem-cellbit img{
+    border-radius: 10rem;
+}
+
+.redes-sociais-cellbit{
+    width: 36rem;
+    height: 3rem;
+
+    position: absolute;
+    margin-top: 16.5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.redes-centro{
+    width: 15.625rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-centro button{
+    width: 2.5rem;
+    height: 2rem;
+
+    border: none;
+    margin-left: 0.5rem;
+
+    background-color: transparent;
+}
+
+.equipe-criacao-title{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe-criacao-title p{
+    font-family: 'Roboto Condensed';
+    font-size: 2rem;
+    color: white;
+}
+
+.equipe-criacao{
+    width: 100%;
+    height: 46rem;
+
+    display: flex;
+}
+
+.equipe-criacao-um{
+    width: 36rem;
+    height: 40rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.equipe-criacao-dois{
+    width: 36rem;
+    height: 40rem;
+
+    margin: 0 0 0 1rem;
+}
+
+h1{
+    font-family: 'Roboto Condensed';
+    font-size: 1.75rem;
+    color: white;
+
+    font-weight: normal;
+
+    margin-top: 1rem;
+}
+
+.equipe-criacao p{
+    font-family: 'Roboto';
+    font-size: 0.9735rem;
+    color: #929292;
+
+    margin-top: 0.5rem;
+}
+
+.equipe-criacao img{
+    width: 0.875rem;
+    height: 0.85rem;
+}
+
+.inscricao{
+    width: 100%;
+    height: 16rem;
+
+    display: flex;
+}
+
+.ins-novidade{
+    width: 36rem;
+    height: 16rem;
+
+    margin: 0 0 0 10.5rem;
+}
+
+.ins-email{
+    width: 36rem;
+    height: 16rem;
+
+    margin: 0 0 0 1rem;
+}
+
+.ins-novidade h1{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    color: white;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.ins-novidade p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: white;
+
+    margin-top: 1rem;
+}
+
+.email{
+    width: 34.375rem;
+    height: 2.9375rem;
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #e7e7e7;
+
+    font-weight: 400px;
+
+    border: 0.1px solid #beb8b8;
+    border-radius: 0.2rem;
+
+    margin-top: 2rem;
+
+    background-color: transparent;
+}
+
+.ins-email p{
+    font-family: 'Roboto';
+    font-size: 0.9375rem;
+    color: #e7e7e7;
+
+    margin-top: 0.5rem;
+}
+
+.ins-email button{
+    width: 34.875rem;
+    height: 2.9375rem;
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: black;
+
+    border: 0.1px solid #beb8b8;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+    background-color: #FFBC4F;
+}
+
+.ins-email button:hover{
+    background-color: #cb8514; 
+}
+
+.final{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.logo-final{
+    width: 28rem;
+    height: 14rem;
+
+    margin: 0 0 0 10.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-final p{
+    font-family: 'Roboto';
+    font-size: 0.9735rem;
+    color: white;
+
+    position: absolute;
+    margin-top: 9rem;
+}
+
+.redes-final{
+    width: 43rem;
+    height: 14rem;
+
+    margin: 0 0 0 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-final img{
+    width: 2.25rem;
+    height: 2.25rem;
+
+    margin: 1rem 0 0 2.5rem;
+}
